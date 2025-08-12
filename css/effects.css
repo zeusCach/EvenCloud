@@ -1,0 +1,25 @@
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .7s ease-out, transform .7s ease-out;
+}
+
+.fade-in-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cursor {
+  display: inline-block;
+  width: 8px;
+  background: #d4d4d4;
+  margin-left: 2px;
+  animation: 1s steps(2, start) infinite blink;
+  vertical-align: bottom;
+  border-radius: 2px;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+  to { visibility: hidden; }
+}

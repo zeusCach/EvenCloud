@@ -1,0 +1,53 @@
+/* ===== CSS Reset / Normalize ===== */
+
+/* 1. Usa box-sizing consistente */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Elimina márgenes por defecto */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Mejora tipografía */
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: system-ui, sans-serif;
+}
+
+/* 4. Asegura que las imágenes no se salgan */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5. Evita estilos raros en formularios */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 6. Quita subrayado azul feo en enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 7. Listas sin estilos por defecto */
+ul, ol {
+  list-style: none;
+}
+
+/* 8. Botones y enlaces clicables */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* 9. Mantén altura mínima de body */
+body {
+  min-height: 100vh;
+}

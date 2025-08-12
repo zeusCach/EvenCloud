@@ -1,0 +1,44 @@
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+  padding: .9rem 1.25rem;
+}
+
+.navegacion .logo p {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.navegacion .links a {
+  text-decoration: none;
+  color: var(--text);
+  padding: .5rem .9rem;
+  border-radius: 8px;
+  transition: background .18s, color .18s;
+  font-weight: 600;
+}
+
+.banner .content,
+.miembro-equipo {
+  border-radius: 12px;
+  background: var(--card);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, .08);
+}
+
+.miembro-equipo {
+  padding: 1.5rem;
+  width: 250px;
+  transition: transform .3s;
+}
+
+.servicios-lista li {
+  background: var(--card);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+  transition: background-color .3s;
+  cursor: default;
+}

@@ -1,0 +1,40 @@
+@media (max-width: 1000px) {
+  .banner .content { padding: 1rem; }
+  .info p { font-size: 1.25rem; max-width: 100%; }
+  .img img { max-width: 320px; }
+  .container .container-nosotros h2 { font-size: 2.2rem; }
+}
+
+@media (max-width: 768px) {
+  .equipo-lista,
+  .servicios-lista {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .miembro-equipo,
+  .servicios-lista li {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .banner .content {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+
+  .info {
+    padding: 2rem 1.2rem;
+  }
+
+  .container .container-nosotros {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container .container-nosotros h2 { font-size: 1.7rem; }
+  .info p { font-size: 1.05rem; }
+}
